@@ -23,7 +23,10 @@ namespace GitHubIntro
         /// A regular 2D shape, all sides are the same length
         /// </summary>
         /// <param name="length">Length of a single side</param>
-        public Regular2DShape(double length) { }
+        public Regular2DShape(double length)
+        {
+            _length = length;
+        }
 
         /// <summary>
         /// Get the Area of the shape
