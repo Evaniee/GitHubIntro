@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Regular2DShape octagon = new Octagon(2.7);
+            Console.WriteLine(octagon.GetArea());
         }
     }
 }
